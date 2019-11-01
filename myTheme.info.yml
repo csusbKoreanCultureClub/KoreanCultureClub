@@ -1,0 +1,12 @@
+name: Drupal
+type: theme
+description: This is my Drupal theme
+package: Custom
+core: 8.x
+libraries:
+  - myTheme/style
+regions:
+  navbar: Navigation
+  land: Home
+  content: Page Content
+  footer: Page Footer

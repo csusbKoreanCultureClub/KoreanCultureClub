@@ -1,0 +1,108 @@
+body, html{
+	margin: 0;
+	overflow-x:hidden;
+}
+.menu{
+	height: 8vh;
+	background-color: rgba(20,50,77,0.99);
+	width: 100vw;
+
+}
+.logo{
+	display: inline-block;
+	width: 5vw;
+	height: 5vh;
+	color: #fff;
+	font-size: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: 'Syncopate', sans-serif;
+	background-image: url('https://my.csusb.edu/_static/image/resolve-kurogo/images/homelink-2133abcad01db7d74d50bbb64b1038e850951df9.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+ul{
+	display: inline-block;
+	float: right;
+	list-style-type: none;
+	width: 32vw;
+
+}
+li{
+	display: inline-block;
+	width: 10vw;
+	font-size: 20px;
+	font-family: 'Montserrat';
+	color: #fff;
+}
+.tint{
+	position: absolute;
+	z-index: 1;
+	height: 120vh;
+	width: 100vw;
+	background-color: #000;
+	opacity: 0.4;
+}
+.land{
+	height: 120vh;
+	width: 100vw;
+	background-image: url('http://www.glittergraphics.org/img/37/377209/korean-wallpaper-hd.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.heading{
+	position: relative;
+	z-index: 20;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30vh;
+	font-family: 'Roboto';
+	color: #fff;
+}
+.line{
+	position: relative;
+	z-index: 19;
+	margin: auto;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	background: #fff;
+	width: 50vw;
+	height: 3px;
+}
+.status{
+	position: relative;
+	z-index: 20;
+	font-family: 'Montserrat';
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+.thefirst{
+	width: 70vw;
+	margin: auto;
+}
+.article{
+	text-align: center;
+}
+h1{
+	font-family: 'Roboto';
+	font-size: 35px;
+}
+p{
+	font-family: 'Montserrat';
+}
+footer{
+	background-color: rgba(20,50,77,0.99);
+	text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Roboto';
+}
+
+
+
+
